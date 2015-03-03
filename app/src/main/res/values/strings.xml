@@ -17,10 +17,13 @@
     <string name="FirtName_txt">Firt Name</string>
     <string name="lastName_txt">Last Name</string>
     <string name="gender_txt">Gender</string>
+    <string name="female_radio">Female</string>
+    <string name="male_radio">Male</string>
     <string name="age_txt">Age</string>
+    <string name="submit_button">SUBMIT</string>
 
 
 
-
+    <string name="bikerBoard">Biker Board</string>
     <string name="hello_world">Hello world!</string>
 </resources>
