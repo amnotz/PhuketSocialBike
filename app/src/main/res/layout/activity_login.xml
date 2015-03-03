@@ -41,7 +41,7 @@
             android:id="@+id/editText"
             android:layout_weight="0.51"
             android:layout_marginLeft="40dp"
-            android:background="#fff7ffa2" />
+            android:background="#ffffdd6a" />
 
     </LinearLayout>
 
@@ -67,7 +67,7 @@
             android:layout_height="40dp"
             android:id="@+id/editText2"
             android:layout_marginLeft="15dp"
-            android:background="#fff7ffa2"
+            android:background="#ffffdd6a"
             android:layout_weight="0.51"
             android:inputType="numberPassword" />
     </LinearLayout>
@@ -111,7 +111,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login_button"
-            android:id="@+id/buttontxt"
+            android:id="@+id/login_btn"
             android:layout_marginLeft="75dp" />
 
         <Button

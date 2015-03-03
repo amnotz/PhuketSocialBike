@@ -21,6 +21,9 @@
             android:name=".RegistrationActivity"
             android:label="@string/title_activity_registration" >
         </activity>
+        <activity
+            android:name=".Biker_boardkerboard" >
+        </activity>
     </application>
 
 </manifest>

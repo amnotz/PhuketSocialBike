@@ -20,10 +20,20 @@ public class LoginActivity extends Activity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        //BTN Login to BikerBoard
+        Button login_btn = (Button) findViewById(R.id.login_btn);
+        login_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent contractBtn = new Intent(LoginActivity.this,Biker_board.class);
+                startActivity(contractBtn);
+            }
+        });
+
         //liknlogin to regis
         link_Regis = (TextView) findViewById(R.id.text5);
-        link_Regis.setOnClickListener(new View.OnClickListener() {
-
+        link_Regis.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View v) {
                 Intent general = new Intent(LoginActivity.this,RegistrationActivity.class);
