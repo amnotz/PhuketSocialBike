@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 
 public class LoginActivity extends Activity  {
-    private TextView link_Regis;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,13 +24,13 @@ public class LoginActivity extends Activity  {
         login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent contractBtn = new Intent(LoginActivity.this,Biker_board.class);
+                Intent contractBtn = new Intent(LoginActivity.this,Biker_BoardActivity.class);
                 startActivity(contractBtn);
             }
         });
 
         //liknlogin to regis
-        link_Regis = (TextView) findViewById(R.id.text5);
+        TextView link_Regis = (TextView) findViewById(R.id.text5);
         link_Regis.setOnClickListener(new View.OnClickListener()
         {
             @Override

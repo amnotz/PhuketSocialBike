@@ -4,22 +4,26 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
 
 
-public class RegistrationActivity extends ActionBarActivity {
+public class Biker_BoardActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
+
+
+        setContentView(R.layout.activity_biker_board);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_registration, menu);
-        return true;
+        getMenuInflater().inflate(R.menu.menu_biker_board, menu);
+        return false;
     }
 
     @Override
