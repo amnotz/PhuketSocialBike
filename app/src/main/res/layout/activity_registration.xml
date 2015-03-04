@@ -156,7 +156,7 @@
             android:background="#ffffdd6a" />
 
         <Button
-            android:layout_width="145dp"
+            android:layout_width="184dp"
             android:layout_height="wrap_content"
             android:text="@string/submit_button"
             android:id="@+id/button"

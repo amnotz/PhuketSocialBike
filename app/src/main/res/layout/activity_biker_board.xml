@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,7 +17,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:background="#e4969696">
 
         <TextView
@@ -27,13 +28,40 @@
             android:id="@+id/textView12"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="17dp"
-            android:textSize="27dp" />
+            android:textSize="24dp" />
 
         <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:id="@+id/imageButton2"
-            android:background="@drawable/pen_icon" />
+            android:background="@drawable/pencil"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp" />
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton"
+            android:background="@drawable/bike1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton3"
+            android:background="@drawable/camera_pic"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="7dp" />
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton4"
+            android:background="@drawable/share"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="6dp" />
 
     </LinearLayout>
+
 </LinearLayout>
